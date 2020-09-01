@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="2dp"
+    android:orientation="vertical"
+    android:padding="5dp"
+
+    >
+
+    <LinearLayout
+        android:id="@+id/layout_outro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/shape_comentario"
+        android:layout_gravity="start"
+        android:layout_alignParentStart="true"
+        android:visibility="visible"
+        android:paddingHorizontal="10dp"
+        android:paddingVertical="5dp"
+        android:layout_marginRight="40dp"
+        android:elevation="5dp"
+        >
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/ic_user_account_circle_black_24dp"
+
+                />
+            <TextView
+                android:id="@+id/item_comment_key"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="l2Rc5a3t9"
+                android:textSize="10sp"
+                android:layout_gravity="start"
+                android:textColor="#615956"
+                android:layout_marginLeft="5dp"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/item_comment_texto_outro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comment text display here... "
+            android:textSize="16sp"
+            android:layout_gravity="start"
+            android:textColor="#000"
+            />
+
+        <TextView
+            android:id="@+id/item_comment_hora_outro"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="28/03/2020 17:30 "
+            android:textSize="10sp"
+            android:layout_gravity="start"
+            android:textColor="#353434"
+            />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_eu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/shape_comentario_eu"
+        android:layout_gravity="end"
+        android:layout_below="@+id/layout_outro"
+        android:visibility="visible"
+        android:paddingHorizontal="10dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginLeft="40dp"
+        android:paddingVertical="5dp"
+        android:elevation="5dp"
+        >
+
+        <TextView
+            android:id="@+id/item_comment_texto_eu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Comment text display here... "
+            android:textSize="16sp"
+            android:textAlignment="textStart"
+            android:layout_gravity="start"
+            android:textColor="#000000"
+            />
+
+        <TextView
+            android:id="@+id/item_comment_hora_eu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="28/03/2020 17:30 "
+            android:textSize="12sp"
+            android:textAlignment="textEnd"
+            android:layout_gravity="end"
+            android:textColor="#353434"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
+

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "287081011426",
+    "firebase_url": "https://portfolio-app-d7078.firebaseio.com",
+    "project_id": "portfolio-app-d7078",
+    "storage_bucket": "portfolio-app-d7078.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:287081011426:android:f86056ec00e25c845ae6bb",
+        "android_client_info": {
+          "package_name": "com.betharley.mobile.portfolioapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "287081011426-fq09j93kgem14aulg970juo4l1bme0n1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.betharley.mobile.portfolioapp",
+            "certificate_hash": "085635dd2cd2299367c3f2c327088140cfde47dc"
+          }
+        },
+        {
+          "client_id": "287081011426-m8r15qf69avqq8rc7pdtm5vjoeml6256.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDlLdaLi3qMKPnQEi5ZpJwaHjeqS_p0gE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "287081011426-m8r15qf69avqq8rc7pdtm5vjoeml6256.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

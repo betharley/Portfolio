@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".team.TeamFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Versões do Android"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:textColor="#0062AD"
+            android:layout_weight="1"
+            android:paddingTop="10dp"
+            android:paddingBottom="5dp"
+            android:gravity="center_horizontal"
+            />
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/versao1"
+        android:layout_marginLeft="16dp"
+        android:lineSpacingExtra="5dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="16dp"
+        android:textColor="#171717"
+        android:layout_weight="1"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.3"
+        />
+
+<!--    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview_team"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:backgroundTint="#2196F3"
+        />-->
+
+    </LinearLayout>
+
+</ScrollView>

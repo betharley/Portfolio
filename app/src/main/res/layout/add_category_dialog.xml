@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:paddingBottom="10dp"
+    android:paddingTop="10dp"
+    android:background="@drawable/shape_rounded_box"
+    android:backgroundTint="#FFF"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/add_imagem"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#AAA"
+        android:src="@drawable/icone_edit_black_24dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+
+        />
+
+<!--    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toque acima para selecionar sua imagem"
+        android:textAllCaps="false"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:elevation="1dp"
+        />-->
+
+    <EditText
+        android:id="@+id/add_nome_category"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:gravity="start"
+        android:layout_gravity="left"
+        android:lines="5"
+        android:maxHeight="120dp"
+        android:ems="10"
+        android:layout_margin="16dp"
+        android:padding="8dp"
+        android:backgroundTint="#FFFFFF"
+        android:background="@drawable/shape_rounded_box"
+        android:inputType="text|textMultiLine"
+        android:elevation="1dp"
+        android:hint="Editar aqui..."
+
+        />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/add_botao"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_rounded_corners"
+            android:backgroundTint="#00BCD4"
+            android:textColor="#FFF"
+            android:layout_gravity="center"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="8dp"
+            android:text="Confirmar"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:elevation="1dp"
+            android:layout_weight="1"
+            />
+        <Button
+            android:id="@+id/add_Cancelar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_rounded_corners"
+            android:backgroundTint="#FF5722"
+            android:textColor="#FFF"
+            android:layout_gravity="center"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="8dp"
+            android:text="Cancelar"
+            android:textAllCaps="false"
+            android:textSize="20sp"
+
+            android:elevation="1dp"
+            android:layout_weight="1"
+            />
+    </LinearLayout>
+
+    <!--Tap above to select your image
+    Toque acima para selecionar sua imagem-->
+</LinearLayout>

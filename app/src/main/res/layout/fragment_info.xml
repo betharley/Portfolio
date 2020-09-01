@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFF"
+    tools:context=".info.InfoFragment">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:elevation="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#0062AD"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="30dp"
+            >
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginTop="5dp"
+                android:src="@drawable/foto_betharley"
+                app:civ_border_color="#FFFFFF"
+                app:civ_border_width="3dp"
+                />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:layout_marginBottom="2dp"
+                android:gravity="center"
+                android:text="Beth Arley Rodrigues De Araujo"
+                android:textAllCaps="false"
+                android:textColor="#FFF"
+                android:textSize="16sp"
+                android:textStyle="bold"
+
+                />
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="-25dp"
+        android:gravity="center"
+        android:elevation="4dp"
+        android:padding="10dp"
+        android:textColor="#FF5722"
+        android:textStyle="italic"
+        android:textSize="15sp"
+        android:textAllCaps="false"
+
+        android:background="@drawable/loading_shape"
+        android:text="Tudo o que um sonho precisa para ser realizado é alguém que acredite que ele possa ser realizado. "
+
+        />
+
+    <ScrollView
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/icone_email"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="4dp"
+                    android:src="@drawable/ic_email_black_24dp"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="gone"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <TextView
+                        android:id="@+id/perfil_email"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="false"
+                        android:textSize="15sp"
+                        android:textColor="#022A4A"
+                        android:text="Desenvolvedor de Aplicativos Android"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        />
+                    <TextView
+                        android:id="@+id/perfil_vagasdisponiveis"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Usando a tecnologia Java e XML"
+                        android:textAllCaps="false"
+                        android:textColor="#022A4A"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="15sp"
+                        android:visibility="gone"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="20dp"
+            >
+
+            <ImageView
+                android:id="@+id/icone_fone"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/ic_phone_android_black_24dp"
+                android:visibility="gone"
+                />
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:id="@+id/perfil_fone"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textAllCaps="false"
+                        android:textSize="16sp"
+                        android:textColor="#022A4A"
+                        android:text=">Usando a tecnologia Java e XML"
+
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        />
+
+                    <ImageView
+                        android:layout_width="35dp"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/whatsapp_logo"
+                        android:layout_gravity="center_vertical"
+                        android:visibility="gone"
+                        />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/perfil_wesleycatula"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:textAllCaps="false"
+                        android:textSize="16sp"
+                        android:textColor="#022A4A"
+                        android:text=">Estudando a tecnologia Kotlin"
+                        android:gravity="center_vertical"
+                        android:layout_marginLeft="10dp"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                >
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="#AAA"
+                    android:layout_gravity="center_vertical"
+
+                    />
+
+                <TextView
+                    android:text="Parceiros"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textAlignment="center"
+                    android:gravity="center_horizontal"
+                    android:textColor="#FF5722"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    />
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:layout_weight="1"
+                    android:background="#AAA"
+                    android:layout_gravity="center_vertical"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/perfil_layout_neuvoo"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="50dp"
+                >
+                <ImageView
+                    android:id="@+id/icone_neuvoo"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/icone_group_black_24dp"
+                    android:visibility="gone"
+                    />
+
+                <TextView
+                    android:id="@+id/perfil_neuvoo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="Sem parcerias no momento"
+                    android:textAllCaps="false"
+                    android:textColor="#022A4A"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16sp"
+                    />
+            </LinearLayout>
+
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_weight="1"
+                android:background="#E4E2E2"
+                android:layout_gravity="center_vertical"
+                />
+
+            <TextView
+                android:id="@+id/info_key"
+                android:text="Key App"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:textAlignment="textEnd"
+                android:gravity="end"
+                android:textColor="#5B5B5C"
+                android:textSize="18sp"
+                android:layout_marginRight="16dp"
+                android:layout_marginBottom="50dp"
+                android:visibility="gone"
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <item android:id="@+id/menu_home"
+        android:title="Home"
+        android:icon="@drawable/icone_home_black_24dp"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/menu_team"
+        android:title="Versões"
+        android:icon="@drawable/ic_assignment_late_black_24dp"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/menu_post"
+        android:title="Fotos"
+        android:icon="@drawable/icone_image_black_24dp"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/menu_curriculo"
+        android:title="Dicas"
+        android:icon="@drawable/icone_assignment_curriculo"
+        app:showAsAction="never"
+        />
+
+    <item android:id="@+id/menu_info"
+        android:title="Info"
+        android:icon="@drawable/icone_info_black_24dp"
+        app:showAsAction="never"
+        />
+
+</menu>

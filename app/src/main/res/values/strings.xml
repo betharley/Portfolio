@@ -1,0 +1,91 @@
+<resources>
+    <string name="app_name">Beth Arley</string>
+
+    <string name="descricao_fotos">Esta é a minha galeria de fotos pessoais. Você pode visualizar as fotos abaixo e até mais deixar um Like que gostou da foto ou mesmo realizar um comentário na foto.</string>
+
+
+    <string name="name">Beth Arley</string>
+    <string name="job_sobrenome">Rodrigues De Araujo</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="desenvolvedor_mobile">Desenvolvedor Mobile</string>
+
+
+    <!-- Grupo -->
+
+
+    <!-- HOME -->
+    <string name="home1">Programador Android</string>
+    <string name="home2">Isso é o resultado do que aprendi durante o meu aprendizado sobre o Java, o Android Studio, os componentes de design de materiais e o Firebase. Tentei implementar o máximo possível de funcionalidades ao aplicativo.</string>
+    <string name="home3">Formação Acadêmica</string>
+    <string name="home4">
+           \t > Graduação em Analise e Desenvolvimento de Sistemas
+        \n \t > Universidade Estácio de Sá.
+        \n \t > Cursando Especialização em Desenvolvimento Mobile.
+        \n \t > Especializando em Desenvolmento de Aplicativo Mobile usando a Tecnologia Java para Android.
+        \n \t > Cursos Online sobre Desenvolmento Android.
+    </string>
+    <string name="home5">Portfólio</string>
+    <string name="home6">Este Portfolio Beth Arley é um aplicativo Java-Android simples, onde quero mostrar minhas habilidades e paixão pelo desenvolvimento do Android, e foi escrito em Java e construído com APIs padrão do SDK do Android Android.</string>
+    <string name="home7">Este aplicativo foi escrito em Java, construído com componentes do Android. O código ainda não está disponível no Github, logo estará disponível para poder ajudar outras pessoas a aprender as mesmas habilidades e tecnologias de desenvolvimento Android para criar aplicativos Android totalmente funcionais.</string>
+
+
+    <!-- CV -->
+    <string name="cv1">Esta é a versão mais recente do meu aplicativo de portfólio, na qual quero compartilhar minhas habilidades e paixão pelo desenvolvimento do Android e é o resultado do que aprendi ao estudar java e Android , design de materiais e componentes do Firebase. </string>
+    <string name="cv2">Apliquei algumas práticas da comunidade Android e sou grato a todos que compartilharam seus conhecimentos e experiências por meio de mídias sociais e postagens em blogs, este trabalho não visa qualquer lucro ou benefícios financeiro.</string>
+    <string name="cv3">Isso é o resultado do que aprendi com o aprendizado de Java e APIs padrão do Android SDK. Criei um aplicativo Android Curriculum Vitae e portfólio com design simples e minimalista.</string>
+    <string name="cv4">Se você é um iniciante, intermediário ou avançado em Java e Android e deseja criar seu portfólio como desenvolvedor Android, este é um exemplo de como pode ser seu aplicativo de apresentação de seus conhecimentos.</string>
+    <string name="cv5">Este modelo é adaptado para qualquer pessoa que tenha conhecimento Java e tenha criado aplicativos Android simples a intermediários, mas que está tentando criar um portfólio sólido de aplicativos Android.</string>
+    <string name="cv6">Este aplicativo foi desenvolvido para ajudar a todos que estejam começando na carreira de desenvolvimento de aplicativos android. Todo o seu conhecimento pode ser adicionado em um aplicativo como este ou mesmo bem melhor que este. O que importa é realizar o seu projeto e divulgar o seu produto para o mundo conhecer seu trabalho.</string>
+    <string name="cv7">Se você deseja conseguir um emprego como desenvolvedor Android ou iniciar uma carreira freelancer no Android Development, é preciso ter uma sólida experiência no Android Development, bem como um portfólio impressionante para apoiar isso. Esse aplicativo mostra a forma que o seu aplicativo pode ter para cria o seu próprio portfólio.</string>
+    <string name="cv8">
+            > Desenvolvedor Android Altamente Pago
+            \n> Especialista em Empresas Android Developer Deseja Contratar
+            \n> Desenvolvedor Android Freelancer que Cria Aplicativos de Primeira Linha
+            \n> Uma Pessoa que Pode Criar Seus Próprios Aplicativos de Negócios para Android
+            \n> Desenvolvedor Android Realizado e Confiante
+            \n> Desenvolvedor Android Experiente
+            \n> Excelente Desenvolvedor Android
+            \n> Desenvolvedor Android Certificado.
+    </string>
+    <string name="cv9">
+          1.	Identar o código.
+        \n2.	Nomear variáveis de maneira intuitiva.
+        \n3.	Evite chamar funções para testes em loops.
+        \n4.	Evitar condição de negação no IF.
+        \n5.	Nomear funções da maneira intuitiva.
+        \n6.	Comentar o código.
+        \n7.	Padronizar nome das constantes.
+        \n8.	Utilizar blocos try.
+    </string>
+
+
+    <!-- VERSÕES -->
+    <string name="versao1">
+        O Android é um Sistema Operacional lançado em 2007. Encontrasse em constante desenvolvimento pela empresa Google, e o sistema operacional recebeu uma série de atualizações desde o seu lançamento original.
+        É muito difícil acompanhar tantas atualizações que esse Sistema Operacional realiza. Essas modificações geralmente corrigem erros e adicionam novas funcionalidades. As versões Android foram desenvolvidos foram lançadas em ordem alfabética e com nomes de doces:
+        <b>
+        Alpha, Beta, Cupcake, Donut, Eclair, Froyo, Gingerbread, Honeycomb, Ice Cream Sandwich, Jelly Bean, KitKat, Lollipop, Marshmallow, Nougat, Oreo, Pie.
+        </b>
+        Abaixo segue lista com as principais verões lançadas do android:
+        </string>
+
+
+    <string name="Cupcake">A versão mais rudimentar do Android que se conhece foi a 1.5 (Cupcake), lançada em 2009. Bem diferente do que se vê em smartphones modernos com o sistema atual, naquela época as grandes novidades foram a possibilidade de colocar atalhos de aplicativos e organizá-los em pastas na tela inicial.</string>
+    <string name="Donut">A maior novidade do Android 1.6 (Donut) foi a introdução do Android Market e do recurso de buscas universais no telefone e na web, hoje conhecido como o app oficial do Google. Foi também a versão que começou a oferecer suporte a telas de várias resoluções, pois os elementos da interface passaram a ser redimensionados automaticamente. Essa atualização ocorreu também em 2009, meses depois do lançamento do Android 1.5.</string>
+    <string name="Eclair">Ainda em 2009, o Google lançou a versão 2.0 (Eclair) com a estreia dos planos de fundo animados e do recurso de adição de telas no aparelho, possibilitando incluir mais widgets, apps e pastas com acesso rápido. Foi também a primeira versão com Google Maps e suporte a navegação via GPS. O Android Eclair apareceu junto com o primeiro integrante da família Nexus, o Nexus One, fabricado pela HTC.</string>
+    <string name="Froyo">Em maio de 2010, foi a vez do lançamento do Android 2.2 (Froyo), responsável por acelerar consideravelmente o desempenho de smartphones equipados com o sistema. Foi também dessa vez que o Android passou a oferecer suporte ao Adobe Flash 10.1, permitindo acessar páginas da web e jogos feitos com o plugin, além do compartilhamento da conexão à Internet via USB e a ditados usando a voz.</string>
+    <string name="Gingerbread">Apresentado juntamente com o Nexus S, fabricado pela Samsung, no final de 2010, o Android 2.3 (Gingerbread) foi, certamente, uma das versões mais importantes do sistema, tendo sido também a mais popular por muito tempo. Ela trouxe diversas vantagens, como melhorias na interface e suporte nativo a NFC e novos sensores, como acelerômetro e giroscópio, recursos que tornaram possível a criação de jogos mais modernos para a plataforma.</string>
+    <string name="Honeycomb">A versão “esquecida” do Android, a 3.0 (Honeycomb), é a menos popular de todas, pelo simples fato de que pouquíssimos dispositivos foram equipados com ela. Destinada a tablets, ela trouxe mudanças profundas no design, adicionando uma nova barra inferior e uma nova tela de apps recentes, além de mudar a paleta de cores do sistema do verde para o azul. No início de 2011, essa versão chegou primeiro no tablet Motorola Xoom.</string>
+    <string name="Ice_Cream_Sandwich">Seguindo o padrão de design do Android 3.0, no fim de 2011 o Google lançou a versão 4.0 (Ice Cream Sandwich) junto com o smartphone Galaxy Nexus, fabricado novamente pela Samsung. Foi a primeira vez que a tela de apps recentes ganhou uma animação própria nos celulares, entre outras características herdadas do Honeycomb.</string>
+    <string name="Jelly_Bean">Novo design e melhor desempenho marcaram o Android 4.1 (Jelly Bean). Lançado em 2012 com o Nexus 4, da LG, esse sistema trouxe o Project Butter para enfrentar de vez o lag – aquele engasgo ao executar tarefas – apresentado por apps em versões anteriores. A aparência mudou de novo trazendo uma série de novidades, como widgets na tela de bloqueio, notificações com botões de ação, atalhos na área de notificações e muito mais. Essa versão se estendeu da 4.1 até a 4.3 com várias mudanças, como a introdução do Google Now.</string>
+    <string name="Kitkat">Lançado oficialmente junto com o Nexus 5 no final de 2013, o Android 4.4 (Kitkat) ofereceu aos usuários, principalmente, melhorias de desempenho e segurança. Foi esta versão que viu o lançamento do Google Now Launcher, que colocou o assistente virtual acessível pela lateral, e passou a integrar as mensagens de SMS ao Hangouts, entre outras mudanças sutis no design.</string>
+    <string name="Lollipop">Mais mudanças visuais chegaram com o Android 5.0 (Lollipop) no fim de 2014, devido a uma linguagem batizada de Material Design. Uma nova área de notificações e atalhos, nova tela de apps recentes e animações mais fluidas para deixar a experiência de uso agradável e consistente. Inaugurada com os Nexus 6 e 9, essa versão não chegou a tantos aparelhos quanto se esperava, mas foi a primeira a oferecer suporte a dispositivos com arquitetura de 64 bits e a diferentes tamanhos de tela, do relógio à TV.</string>
+    <string name="Marshmallow">No segundo semestre de 2015, o Android M (Marshmallow) foi apresentado oficialmente, pela primeira vez, em dois novos smartphones da linha Nexus, os Nexus 5X e Nexus 6P, fabricados por LG e Huawei, respectivamente. Dessa vez com menos mudanças na aparência, a nova versão 6.0 focou em oferecer mais segurança, com permissões de privacidade para apps, e maior desempenho de bateria, com o recurso conhecido como Doze.</string>
+    <string name="Nougat">•	Até agora, na lista, poucos vão receber o Android N. Rodar apps lado a lado. Alternar rapidamente entre apps. Responder a mensagens diretamente nas notificações. Obter mais autonomia da bateria. Reduzir o consumo de dados. Ver configurações de relance.</string>
+    <string name="Oreo">•	Inicialização mais rápida. Um dos pontos que a Google mais destaca para os usuários do Android Oreo é o tempo de inicialização. Limites para execução em segundo plano. Autocompletar nativo. Novo modo de multitarefa. Pontos de notificação. Mais segurança.</string>
+    <string name="Pie">A navegação em gestos é o ponto central da experiência do Android 9.0 Pie. O sistema passa a ter somente dois botões na base da tela, sendo que os gestos no botão central é que controlarão tudo. A navegação será uma das principais novidades do Android 9.0 Pie</string>
+
+
+    <string name="ano_de_lancamento">Lançado em</string>
+</resources>
